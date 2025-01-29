@@ -38,3 +38,30 @@ The vector store is loaded, and it is used to retrieve documents relevant to a q
 
 7. Question Answering Chain
 A question-answering (QA) chain is created using Hugging Face's distilbert-base-uncased-distilled-squad model. The QA chain uses the vector store to retrieve relevant documents and generate answers based on them.
+
+Running the Flask API
+Once everything is set up, you can run the Flask app with:
+`python app.py`
+The API will run on http://localhost:5000. You can query it using POST requests.
+
+API Endpoint
+/chat (POST)
+This endpoint expects a JSON payload with a message field containing the question you want to ask.
+
+Example request:
+`{
+  "response": "The latest course on technical skills is..."
+}`
+
+Folder Structure
+├── app.py                 # Main Flask application script
+├── requirements.txt       # List of dependencies
+└── vector_store/          # FAISS vector store (generated during the process)
+
+icense
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+LangChain: A powerful library for building language model-powered applications.
+Hugging Face: For providing pre-trained models for text generation, embeddings, and question answering.
+Flask: For building the web application to serve the model.
