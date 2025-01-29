@@ -53,6 +53,11 @@ Example request:
   "response": "The latest course on technical skills is..."
 }``
 
+Example response:
+`` {
+  "response": "The latest course on technical skills is..."
+}``
+
 Folder Structure
 
 ├── app.py # Main Flask application script
