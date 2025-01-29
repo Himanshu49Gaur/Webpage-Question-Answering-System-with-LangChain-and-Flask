@@ -54,11 +54,15 @@ Example request:
 }`
 
 Folder Structure
-├── app.py                 # Main Flask application script
+
+├── app.py # Main Flask application script
+
 ├── requirements.txt       # List of dependencies
+
 └── vector_store/          # FAISS vector store (generated during the process)
 
-icense
+
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
