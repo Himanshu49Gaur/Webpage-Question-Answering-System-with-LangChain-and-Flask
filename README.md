@@ -69,3 +69,9 @@ Acknowledgments
 LangChain: A powerful library for building language model-powered applications.
 Hugging Face: For providing pre-trained models for text generation, embeddings, and question answering.
 Flask: For building the web application to serve the model.
+
+
+### Notes:
+- Make sure to replace `YOUR_API_KEY` in the `HEADERS` variable with your actual Hugging Face API key.
+- The vector store `vector_store` is saved and loaded locally, so ensure the directory is properly managed.
+
