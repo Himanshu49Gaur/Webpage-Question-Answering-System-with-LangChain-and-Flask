@@ -49,9 +49,9 @@ API Endpoint
 This endpoint expects a JSON payload with a message field containing the question you want to ask.
 
 Example request:
-`{
+``{
   "response": "The latest course on technical skills is..."
-}`
+}``
 
 Folder Structure
 
