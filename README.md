@@ -8,6 +8,7 @@ This project demonstrates a simple Flask API that fetches a webpage, processes t
 
 ```bash
 pip install -r requirements.txt
+```
 
 Setup
 Hugging Face API Key: You will need a Hugging Face API key to generate embeddings from the model all-MiniLM-L6-v2 (or another model of your choice). Replace the HEADERS in the script with your personal API key.
