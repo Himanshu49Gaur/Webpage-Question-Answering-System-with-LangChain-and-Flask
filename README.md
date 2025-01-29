@@ -60,7 +60,7 @@ Example response:
 
 Folder Structure
 
-├── app.py # Main Flask application script
+├── app.py                 # Main Flask application script
 
 ├── requirements.txt       # List of dependencies
 
