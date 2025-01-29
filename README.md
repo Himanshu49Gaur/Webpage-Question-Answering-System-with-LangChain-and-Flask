@@ -71,8 +71,11 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
+
 LangChain: A powerful library for building language model-powered applications.
+
 Hugging Face: For providing pre-trained models for text generation, embeddings, and question answering.
+
 Flask: For building the web application to serve the model.
 
 
